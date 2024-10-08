@@ -97,6 +97,15 @@ h5 {
     color: black;
 }
 
+.hovering {
+    position: absolute;
+    z-index: -1;
+}
+
+.card-image:hover .hovering {
+    z-index: 1;
+}
+
 /* /content */
 
 /* footer */
