@@ -6,11 +6,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header ul {
+header ul,
+footer ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-header li {
+header li,
+footer li {
     display: inline;
 }
 
@@ -24,7 +28,8 @@ img {
     max-height: 100%;
 }
 
-h5 {
+h5,
+h4 {
     margin: 0;
     padding: 0;
 }
@@ -153,4 +158,36 @@ header {
 /* /content */
 
 /* footer */
+footer {
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-content {
+    height: 100%;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.footer-btns {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.social ul {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.social li {
+    margin: 3px;
+}
+
 /* /footer */
